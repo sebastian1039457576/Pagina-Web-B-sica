@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.registro-container {
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 800px;
+    max-width: 100%;
+}
+.registro-container img {
+    width: 50%;
+    height: auto;
+    display: block;
+
+}
+
+
+.container p{
+    text-align: justify;
+}
+
+.formulario {
+    padding: 20px;
+    width: 50%;
+}
+.formulario h2 {
+    margin-bottom: 20px;
+}
+.formulario input[type="text"], .formulario input[type="email"], .formulario input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.formulario input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.formulario input[type="submit"]:hover {
+    background-color: #555;
+}
+
+
+  
+        
+        .registro-container {
+            display: flex;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 800px;
+            max-width: 100%;
+        }
+        .registro-container img {
+            width: 50%;
+            height: auto;
+            display: block;
+        }
+        .formulario {
+            padding: 20px;
+            width: 50%;
+        }
+        .formulario h2 {
+            margin-bottom: 20px;
+        }
+        .formulario input[type="text"], .formulario input[type="email"], .formulario input[type="password"] {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .formulario input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .formulario input[type="submit"]:hover {
+            background-color: #555;
+        }
+
+    <div class="registro-container">
+        <img src="tu-imagen.jpg" alt="Descripción de la imagen">
+        <div class="formulario">
+            <h2>Registro</h2>
+            <form action="submit.php" method="post">
+                <input type="text" name="nombre" placeholder="Nombre" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="password" name="password" placeholder="Contraseña" required>
+                <input type="submit" value="Registrarse">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
